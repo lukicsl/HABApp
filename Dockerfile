@@ -1,4 +1,4 @@
-FROM python:3.9-slim as buildimage
+FROM python:3.9.13-buster as buildimage
 
 COPY . /tmp/app_install
 
